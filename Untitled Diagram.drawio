@@ -1,9 +1,92 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="jVnBiRHxylIizZLTisgz">
-    <mxGraphModel>
+    <mxGraphModel dx="1006" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="btp" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0070F2;fillColor=#EBF8FF;arcSize=32;absoluteArcSize=1;strokeWidth=1.5;verticalAlign=top;fontSize=14;fontStyle=1;fontColor=#002A86;dashed=1;" value="SAP BTP" vertex="1">
+          <mxGeometry height="600" width="640" x="160" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sub" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0070F2;fillColor=#ffffff;arcSize=24;absoluteArcSize=1;strokeWidth=1.5;verticalAlign=top;fontSize=13;fontStyle=1;fontColor=#002A86;" value="Subaccount" vertex="1">
+          <mxGeometry height="340" width="580" x="190" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bwzBox" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0070F2;fillColor=#ffffff;arcSize=24;absoluteArcSize=1;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="250" width="200" x="220" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="bwz" parent="1" style="shape=mxgraph.sap.icon;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;strokeWidth=1;strokeColor=#D5DADD;fillColor=#EDEFF0;gradientColor=#FCFCFC;gradientDirection=west;aspect=fixed;fontStyle=0;fontSize=10;fontColor=#556B82;SAPIcon=SAP_Build_Work_Zone_-_Standard_Edition;" value="SAP Build&#xa;Work Zone" vertex="1">
+          <mxGeometry height="56" width="56" x="292" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="tcBox" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0070F2;fillColor=#ffffff;arcSize=24;absoluteArcSize=1;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="250" width="200" x="540" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="tc" parent="1" style="shape=mxgraph.sap.icon;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;strokeWidth=1;strokeColor=#D5DADD;fillColor=#EDEFF0;gradientColor=#FCFCFC;gradientDirection=west;aspect=fixed;fontStyle=0;fontSize=10;fontColor=#556B82;SAPIcon=SAP_Task_Center;" value="SAP Task Center" vertex="1">
+          <mxGeometry height="56" width="56" x="612" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="cisBox" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0070F2;fillColor=#ffffff;arcSize=24;absoluteArcSize=1;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="150" width="280" x="340" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="cis" parent="1" style="shape=mxgraph.sap.icon;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;strokeWidth=1;strokeColor=#D5DADD;fillColor=#EDEFF0;gradientColor=#FCFCFC;gradientDirection=west;aspect=fixed;fontStyle=0;fontSize=10;fontColor=#556B82;SAPIcon=SAP_Cloud_Identity_Service;" value="SAP Cloud&#xa;Identity Services" vertex="1">
+          <mxGeometry height="56" width="56" x="452" y="495" as="geometry" />
+        </mxCell>
+        <mxCell id="eu" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelPosition=center;verticalAlign=top;html=1;outlineConnect=0;fillColor=#5B738B;strokeColor=#223548;" value="End User" vertex="1">
+          <mxGeometry height="60" width="40" x="50" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ac" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#5B738B;fontSize=10;" value="Application Clients&#xa;Mobile or Desktop" vertex="1">
+          <mxGeometry height="50" width="100" x="30" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="onprem" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0057D2;fontSize=10;" value="SAP On-Premise&#xa;Solutions" vertex="1">
+          <mxGeometry height="60" width="120" x="830" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="cloud" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0057D2;fontSize=10;" value="SAP Cloud&#xa;Solutions" vertex="1">
+          <mxGeometry height="60" width="120" x="830" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="idp" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#5B738B;fontSize=10;" value="3rd-party&#xa;Identity Provider" vertex="1">
+          <mxGeometry height="60" width="120" x="830" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="eu" style="endArrow=block;endFill=1;strokeColor=#647687;" target="ac" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="ac" style="endArrow=block;endFill=1;strokeColor=#647687;" target="bwz" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="bwz" style="endArrow=block;endFill=1;strokeColor=#647687;" target="tc" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="tc" style="endArrow=block;endFill=1;strokeColor=#647687;" target="onprem" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="tc" style="endArrow=block;endFill=1;strokeColor=#647687;" target="cloud" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="sub" style="endArrow=none;dashed=1;strokeColor=#0070F2;fontSize=10;fontColor=#002A86;" target="cisBox" value="trust">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="cis" style="endArrow=none;dashed=1;strokeColor=#0070F2;fontSize=10;fontColor=#002A86;" target="idp" value="delegates auth">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iUzr_DQao1-S9Xmdu46m-1" edge="1" parent="1" style="endArrow=blockThin;html=1;strokeColor=#475e75;bendable=1;rounded=0;endFill=1;endSize=4;strokeWidth=1.5;startSize=4;startArrow=none;startFill=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="20" y="430" as="sourcePoint" />
+            <mxPoint x="140" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iUzr_DQao1-S9Xmdu46m-2" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;strokeColor=#475E75;fontFamily=Helvetica;fontColor=default;targetPerimeterSpacing=15;endSize=4;startSize=4;endArrow=blockThin;endFill=1;strokeWidth=1.5;startArrow=none;startFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="480" />
+              <mxPoint x="80" y="500" />
+            </Array>
+            <mxPoint x="20" y="480" as="sourcePoint" />
+            <mxPoint x="140" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iUzr_DQao1-S9Xmdu46m-3" edge="1" parent="1" style="endArrow=blockThin;html=1;strokeColor=#475E75;bendable=1;rounded=0;endFill=1;endSize=4;edgeStyle=entityRelationEdgeStyle;startArrow=blockThin;startFill=1;startSize=4;jumpStyle=none;jumpSize=0;targetPerimeterSpacing=15;strokeWidth=1.5;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="20" y="540" as="sourcePoint" />
+            <mxPoint x="140" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
